@@ -1,6 +1,8 @@
 ﻿$(document).ready(function() {
 	"use strict";
 
+
+
 	// Main Menu Button
 	$('.main_menu_btn').on("click", function(e){
 		$(this).toggleClass('main_menu_btn_open');

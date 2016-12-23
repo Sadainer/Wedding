@@ -51,6 +51,21 @@ Follow: https://twitter.com/sketchthemes
 
 <style type="text/css">
 	canvas#canvas-snow {position: absolute; top: 0;bottom: 0;left: 0;right: 0;z-index: 6; }
+
+    .borde {
+	    text-shadow:
+	   -1px -1px 0 #000,
+	    1px -1px 0 #000,
+	   -1px 1px 0 #000,
+	    1px 1px 0 #000;
+	}
+
+
+		.brillo {
+		-webkit-filter: brightness(60%);
+		filter: brightness(60%);
+		}
+
 </style>
 
 </head>
@@ -73,13 +88,13 @@ Follow: https://twitter.com/sketchthemes
                 <div class="sub_menu anim">
                 <div class="sub-skew">
                     <ul>
-                        <li class="dropdown">
-				          <a href="index-2.html">Inicio</a>
-				          <span class="caret"></span>
-				          <ul class="dropdown-menu">
+                        <li>
+				          <a href="index.html">Inicio</a>
+				          <!--<span class="caret"></span>-->
+				          <!--<ul class="dropdown-menu">
 				            <li><a href="home-2.html">Inicio 2</a></li>
 				            <li><a href="home-3.html">Inicio 3</a></li>
-				          </ul>
+				          </ul>-->
 				        </li>
                         <li><a href="#maids-wrapper">Los novios</a></li>
                         <li><a href="#counter-wrapper">Fecha de la ceremonia</a></li>
@@ -110,384 +125,474 @@ Follow: https://twitter.com/sketchthemes
 <!-- END: HEADER -->
 <!-- END: LAYOUT/HEADERS/HEADER-1 -->
 
-<div class="page">
+    <div class="page">
 
-	<!-- BEGIN: SLIDER -->
-    <section id="slider-wrapper" class="home_intro">
+        <!-- BEGIN: SLIDER -->
+        <section id="slider-wrapper" class="home_intro">
 
-        <!--<canvas id="canvas-bubble"></canvas>-->
-        <!--<canvas id="canvas-fire"></canvas>-->
-        <canvas id="canvas-snow" class="canvas-color"></canvas>
+            <!--<canvas id="canvas-bubble"></canvas>-->
+            <!--<canvas id="canvas-fire"></canvas>-->
+            <canvas id="canvas-snow" class="canvas-color"></canvas>
 
-    	<div class="home-slider-wrapper">
-	    	<ul id="home-slider" class="owl-carousel">
+            <div class="home-slider-wrapper">
+                <ul id="home-slider" class="owl-carousel">
 
-		    	<li class="item">
-				  	<img src="assets/base/images/image01.jpg" alt="" />
-				  	<div class="forth-slider-text">
-				  		<!--<img src="assets/base/images/logo.png" alt="" >-->
-				  		<div class="forth-slide-sectext">
-				  			<img class="slider-ring" src="assets/base/images/ring.png" alt="" >
-				  			<h3>¿Me harías el hombre más feliz del mundo? <br/>
-				  			<span> ¿Te quieres casar conmigo?</span></h3>
-				  			<div class="slider-icon"><img src="assets/base/images/slider-icon.png" alt="Slider Icon"></div>
-				  			<p>18 | Marzo | 2017</p>
-				  		</div>
-				  	</div>
-				</li>
+                    <li class="item">
+                        <!--<img src="assets/base/images/image01.jpg" alt="" />-->
+                        <img src="assets/base/images/ima_compromiso.jpg" alt="" class="brillo" />
+                        <div class="forth-slider-text">
+                            <!--<img src="assets/base/images/logo.png" alt="" >-->
+                            <div class="forth-slide-sectext">
+                                <img class="slider-ring" src="assets/base/images/ring.png" alt="">
+                                <h3>
+                                    ¿Me harías el hombre más feliz del mundo? <br />
+                                    <span> ¿Te quieres casar conmigo?</span>
+                                </h3>
+                                <div class="slider-icon"><img src="assets/base/images/slider-icon.png" alt="Slider Icon"></div>
+                                <p>18 | Mayo | 2016</p>
+                            </div>
+                        </div>
+                    </li>
 
-				<li class="item">
-				  	<img src="assets/base/images/image11.jpg" alt="" />
-				  	<div class="forth-slider-text">
-				  		<!--<img src="assets/base/images/logo.png" alt="" >-->
-				  		<div class="forth-slide-sectext">
-				  			<img class="slider-ring" src="assets/base/images/baloon.png" alt="" >
-				  			<h3>Rock The party from Your Guest Appearances <br/>
-				  			<span>WEDDING PARTY</span></h3>
-				  			<div class="slider-icon"><img src="assets/base/images/slider-icon.png" alt="Slider Icon"></div>
-				  			<p>22 | April | 2016</p>
-				  		</div>
-				  	</div>
-				</li>
+                    <li class="item">
+                        <img src="assets/base/images/image11.jpg" alt="" />
+                        <div class="forth-slider-text">
+                            <!--<img src="assets/base/images/logo.png" alt="" >-->
+                            <div class="forth-slide-sectext">
+                                <img class="slider-ring" src="assets/base/images/baloon.png" alt="">
+                                <h3>
+                                    El día que deseamos unir nuestras vidas para siempre<br />
+                                    <span>LA BODA</span>
+                                </h3>
+                                <div class="slider-icon"><img src="assets/base/images/slider-icon.png" alt="Slider Icon"></div>
+                                <p>18 | Marzo | 2017</p>
+                            </div>
+                        </div>
+                    </li>
 
-				<li class="item">
-				  	<img src="assets/base/images/image033.jpg" alt="" />
-				  	<div class="forth-slider-text">
-				  		<!--<img src="assets/base/images/logo.png" alt="" >-->
-				  		<div class="forth-slide-sectext">
-				  			<img class="slider-ring" src="assets/base/images/baloon.png" alt="" >
-				  			<h3>We have arranged awesome meal from all over the USA on a place.<br/>
-				  			<span>In Wedding</span></h3>
-				  			<div class="slider-icon"><img src="assets/base/images/slider-icon.png" alt="Slider Icon"></div>
-				  			<p>24 | April | 2016</p>
-				  		</div>
-				  	</div>
-				</li>
-			</ul>
-			
-		</div>
-    </section>
-	<!-- END: SLIDER -->
+                    <li class="item">
+                        <img src="assets/base/images/image033.jpg" alt="" />
+                        <div class="forth-slider-text">
+                            <!--<img src="assets/base/images/logo.png" alt="" >-->
+                            <div class="forth-slide-sectext">
+                                <img class="slider-ring" src="assets/base/images/baloon.png" alt="">
+                                <h3>
+                                    Queremos celebrar contigo la felicidad de este día<br />
+                                    <span>RECEPCIÓN</span>
+                                </h3>
+                                <div class="slider-icon"><img src="assets/base/images/slider-icon.png" alt="Slider Icon"></div>
+                                <p>18 | Marzo | 2017</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
 
-	<!-- BEGIN: MAIDS -->
-    <section id="maids-wrapper" class="front-sections">
+            </div>
+        </section>
+        <!-- END: SLIDER -->
+        <!-- BEGIN: MAIDS -->
+        <section id="maids-wrapper" class="front-sections">
 
-    	<div class="maids-overlay"></div>
+            <div class="maids-overlay"></div>
 
-    	<!-- BEGIN: CONTAINER -->
-    	<div class="container">
+            <!-- BEGIN: CONTAINER -->
+            <div class="container">
 
-	    	<!-- BEGIN: HEADING -->
-	    	<div class="row section-heading-content fade_in_hide element_fade_in">
-	    		<h2 class="col-xs-12 col-sm-3 col-md-3">maids</h2>
-	    		<p class="col-xs-12 col-sm-9 col-md-9">Tying up for life are the most eligible couple Adams Herman and the beautiful bride Saraha Johnson. The wonderful couple has their own set of marital aspirations.</p>
-	    	</div>
-	    	<!-- END: HEADING -->
+                <!-- BEGIN: HEADING -->
+                <div class="row section-heading-content fade_in_hide element_fade_in">
+                    <h2 class="col-xs-12 col-sm-3 col-md-3">Los novios</h2>
+                    <p class="col-xs-12 col-sm-9 col-md-9">Tying up for life are the most eligible couple Adams Herman and the beautiful bride Saraha Johnson. The wonderful couple has their own set of marital aspirations.</p>
+                </div>
+                <!-- END: HEADING -->
+                <!-- BEGIN: INNER WRAPPER -->
+                <div class="row maids-inner-wrapper">
 
-	    	<!-- BEGIN: INNER WRAPPER -->
-	    	<div class="row maids-inner-wrapper">
+                    <!-- BEGIN: GROOM SECTION -->
+                    <div id="groom-section" class="bridegroom-section col-xs-12 col-sm-12 col-md-4 skt_animate_when_almost_visible skt_right-to-left">
+                        <img src="assets/base/images/groom.png" alt="" />
+                        <div class="name-text-sec">
+                            <h2>Sadainer Hernández</h2>
+                            <p>El novio</p>
+                        </div>
+                    </div>
+                    <!-- END: GROOM SECTION -->
+                    <!-- BEGIN: BRIDEGROOM FAIMLY -->
+                    <div class="bridegroom-family col-xs-12 col-sm-12 col-md-4 skt_animate_when_almost_visible skt_bottom-to-top">
 
-	    		<!-- BEGIN: GROOM SECTION -->
-	    		<div id="groom-section" class="bridegroom-section col-xs-12 col-sm-12 col-md-4 skt_animate_when_almost_visible skt_right-to-left" >
-	    			<img src="assets/base/images/groom.png" alt="" />
-	    			<div class="name-text-sec">
-	    				<h2>Adams Herman</h2>
-	    				<p>The Groom</p>
-	    			</div>
-	    		</div>
-	    		<!-- END: GROOM SECTION -->
+                        <!-- BEGIN: BRIDE FAIMLY -->
+                        <div id="bride-family" class="family-info row">
 
-	    		<!-- BEGIN: BRIDEGROOM FAIMLY -->
-	    		<div class="bridegroom-family col-xs-12 col-sm-12 col-md-4 skt_animate_when_almost_visible skt_bottom-to-top">
+                            <!-- BEGIN: BRIDE FATHER DETAIL -->
+                            <div class="parents-detail col-xs-12 col-sm-6 col-md-6">
+                                <div class="friend-img">
+                                    <div class="imgoverlay"><a title="Parents" data-rel="prettyPhoto" href="assets/base/images/bride-father-big.jpg"><i class="icon wedding-gallery-search"></i></a></div>
+                                    <img src="assets/base/images/bride-father.png" alt="" />
+                                </div>
+                                <h2>Rogel Chinchia</h2>
+                                <p>Padre de la novia</p>
+                            </div>
+                            <!-- END: BRIDE FATHER DETAIL -->
+                            <!-- BEGIN: BRIDE MOTHER DETAIL -->
+                            <div class="parents-detail col-xs-12 col-sm-6 col-md-6">
+                                <div class="friend-img">
+                                    <div class="imgoverlay"><a title="Parents" data-rel="prettyPhoto" href="assets/base/images/bride-mother-big.jpg"><i class="icon wedding-gallery-search"></i></a></div>
+                                    <img src="assets/base/images/bride-mother.png" alt="" />
+                                </div>
+                                <h2>Ilba Vence</h2>
+                                <p>Madre de la novia</p>
+                            </div>
+                            <!-- END: BRIDE MOTHER DETAIL -->
 
-	    			<!-- BEGIN: BRIDE FAIMLY -->
-	    			<div id="bride-family" class="family-info row">
+                        </div>
+                        <!-- END: BRIDE FAIMLY -->
+                        <!-- BEGIN: GROOM FAIMLY -->
+                        <div id="groom-family" class="family-info row">
 
-	    				<!-- BEGIN: BRIDE FATHER DETAIL -->
-	    				<div class="parents-detail col-xs-12 col-sm-6 col-md-6">
-	    					<div class="friend-img">
-		    					<div class="imgoverlay"><a title="Parents" data-rel="prettyPhoto" href="assets/base/images/bride-father-big.jpg"><i class="icon wedding-gallery-search"></i></a></div>
-		    					<img src="assets/base/images/bride-father.png" alt="" />
-		    				</div>
-	    					<h2>Harris Johnson</h2>
-	    					<p>Bride's Father</p>
-	    				</div>
-	    				<!-- END: BRIDE FATHER DETAIL -->
+                            <!-- BEGIN: GROOM FATHER DETAIL -->
+                            <div class="parents-detail col-xs-12 col-sm-6 col-md-6">
+                                <div class="friend-img">
+                                    <div class="imgoverlay"><a title="Parents" data-rel="prettyPhoto" href="assets/base/images/grom-father-big.jpg"><i class="icon wedding-gallery-search"></i></a></div>
+                                    <img src="assets/base/images/groom-father.png" alt="" />
+                                </div>
+                                <h2>Jairo Hernández</h2>
+                                <p>Padre del novio</p>
+                            </div>
+                            <!-- END: GROOM FATHER DETAIL -->
+                            <!-- BEGIN: GROOM MOTHER DETAIL -->
+                            <div class="parents-detail col-xs-12 col-sm-6 col-md-6">
+                                <div class="friend-img">
+                                    <div class="imgoverlay"><a title="Parents" data-rel="prettyPhoto" href="assets/base/images/groom-mother-big.jpg"><i class="icon wedding-gallery-search"></i></a></div>
+                                    <img src="assets/base/images/groom-mother.png" alt="" />
+                                </div>
+                                <h2>Maria Chacón</h2>
+                                <p>Madre del novio</p>
+                            </div>
+                            <!-- END: GROOM MOTHER DETAIL -->
 
-	    				<!-- BEGIN: BRIDE MOTHER DETAIL -->
-	    				<div class="parents-detail col-xs-12 col-sm-6 col-md-6">
-	    					<div class="friend-img">
-		    					<div class="imgoverlay"><a title="Parents" data-rel="prettyPhoto" href="assets/base/images/bride-mother-big.jpg"><i class="icon wedding-gallery-search"></i></a></div>
-		    					<img src="assets/base/images/bride-mother.png" alt="" />
-		    				</div>
-	    					<h2>Sandra Johnson</h2>
-	    					<p>Bride's Mother</p>
-	    				</div>
-	    				<!-- END: BRIDE MOTHER DETAIL -->
+                        </div>
+                        <!-- END: GROOM FAIMLY -->
 
-	    			</div>
-	    			<!-- END: BRIDE FAIMLY -->
+                    </div>
+                    <!-- END: BRIDEGROOM FAIMLY -->
+                    <!-- BEGIN: BRIDE SECTION -->
+                    <div id="bride-section" class="bridegroom-section col-xs-12 col-sm-12 col-md-4 skt_animate_when_almost_visible skt_left-to-right">
+                        <img src="assets/base/images/bride.png" alt="" />
+                        <div class="name-text-sec">
+                            <h2>Diana Chinchia</h2>
+                            <p>La novia</p>
+                        </div>
+                    </div>
+                    <!-- END: BRIDE SECTION -->
 
-	    			<!-- BEGIN: GROOM FAIMLY -->
-	    			<div id="groom-family" class="family-info row">
+                </div>
+                <!-- END: INNER WRAPPER -->
+                <!--BEGIN: CAROUSEL -->
+                <div class="bridegroom-friend fade_in_hide element_fade_in">
+                    <div class="wedd-seperator"><img src="assets/base/images/saprator.png" alt=""></div>
+                    <div id="owl-demo" class="owl-carousel col-sm-10 col-xs-12 col-md-10">
+                        <div class="item">
+                            <div class="friend-img">
+                                <div class="imgoverlay"></div>
+                                <img src="assets/base/images/friend-1.png" alt="Friend's Image">
+                            </div>
+                            <h3>Clark White</h3>
+                            <span>Groom's Friend</span>
+                        </div>
+                        <div class="item">
+                            <div class="friend-img">
+                                <div class="imgoverlay"></div>
+                                <img src="assets/base/images/friend-2.png" alt="Friend's Image">
+                            </div>
+                            <h3>Lee Walker</h3>
+                            <span>Bride's Friend</span>
+                        </div>
+                        <div class="item">
+                            <div class="friend-img">
+                                <div class="imgoverlay"></div>
+                                <img src="assets/base/images/friend-3.png" alt="Friend's Image">
+                            </div>
+                            <h3>Mark Georgek</h3>
+                            <span>Groom's Friend</span>
+                        </div>
+                        <div class="item">
+                            <div class="friend-img">
+                                <div class="imgoverlay"></div>
+                                <img src="assets/base/images/friend-4.png" alt="Friend's Image">
+                            </div>
+                            <h3>Lisa Jinnfer</h3>
+                            <span>Groom's Friend</span>
+                        </div>
+                        <div class="item">
+                            <div class="friend-img">
+                                <div class="imgoverlay"></div>
+                                <img src="assets/base/images/friend-1.png" alt="Friend's Image">
+                            </div>
+                            <h3>Clark White</h3>
+                            <span>Groom's Friend</span>
+                        </div>
+                        <div class="item">
+                            <div class="friend-img">
+                                <div class="imgoverlay"></div>
+                                <img src="assets/base/images/friend-2.png" alt="Friend's Image">
+                            </div>
+                            <h3>Lee Walker</h3>
+                            <span>Bride's Friend</span>
+                        </div>
+                        <div class="item">
+                            <div class="friend-img">
+                                <div class="imgoverlay"></div>
+                                <img src="assets/base/images/friend-3.png" alt="Friend's Image">
+                            </div>
+                            <h3>Mark Georgek</h3>
+                            <span>Groom's Friend</span>
+                        </div>
+                        <div class="item">
+                            <div class="friend-img">
+                                <div class="imgoverlay"></div>
+                                <img src="assets/base/images/friend-4.png" alt="Friend's Image">
+                            </div>
+                            <h3>Lisa Jinnfer</h3>
+                            <span>Bride's Friend</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- END: CAROUSEL -->
 
-	    				<!-- BEGIN: GROOM FATHER DETAIL -->
-	    				<div class="parents-detail col-xs-12 col-sm-6 col-md-6">
-	    					<div class="friend-img">
-		    					<div class="imgoverlay"><a title="Parents" data-rel="prettyPhoto" href="assets/base/images/grom-father-big.jpg"><i class="icon wedding-gallery-search"></i></a></div>
-		    					<img src="assets/base/images/groom-father.png" alt="" />
-		    				</div>
-	    					<h2>Michael Herman</h2>
-	    					<p>Groom's Father</p>
-	    				</div>
-	    				<!-- END: GROOM FATHER DETAIL -->
+            </div>
+            <!-- END: CONTAINER -->
 
-	    				<!-- BEGIN: GROOM MOTHER DETAIL -->
-	    				<div class="parents-detail col-xs-12 col-sm-6 col-md-6">
-	    					<div class="friend-img">
-		    					<div class="imgoverlay"><a title="Parents" data-rel="prettyPhoto" href="assets/base/images/groom-mother-big.jpg"><i class="icon wedding-gallery-search"></i></a></div>
-		    					<img src="assets/base/images/groom-mother.png" alt="" />
-		    				</div>
-	    					<h2>Mary Herman</h2>
-	    					<p>Groom's Mother</p>
-	    				</div>
-	    				<!-- END: GROOM MOTHER DETAIL -->
+        </section>
+        <!-- END: MAIDS -->
+        <!-- BEGAIN: SEPARATOR -->
+        <div class="seperator-spare"><div class="seperator-inner"><i class="fade_in_hide element_fade_in icon wedding-counter"></i></div></div>
+        <!-- END: SEPARATOR -->
+        <!-- BEGIN: COUNTER -->
+        <section id="counter-wrapper" class="front-sections">
 
-	    			</div>
-	    			<!-- END: GROOM FAIMLY -->
+            <div class="counter-overlay"></div>
 
-	    		</div>
-	    		<!-- END: BRIDEGROOM FAIMLY -->
+            <!-- BEGIN: CONTAINER -->
+            <div class="container">
 
-	    		<!-- BEGIN: BRIDE SECTION -->
-	    		<div id="bride-section" class="bridegroom-section col-xs-12 col-sm-12 col-md-4 skt_animate_when_almost_visible skt_left-to-right">
-	    			<img src="assets/base/images/bride.png" alt="" />
-	    			<div class="name-text-sec">
-	    				<h2>Saraha Johnson</h2>
-	    				<p>The Bride</p>
-	    			</div>
-	    		</div>
-	    		<!-- END: BRIDE SECTION -->
-	    			
-	    	</div>
-	    	<!-- END: INNER WRAPPER -->
+                <!-- BEGIN: HEADING -->
+                <div class="row section-heading-content white-heading-content fade_in_hide element_fade_in">
+                    <h2 class="col-xs-12 col-sm-3 col-md-3">Nos vamos a casar</h2>
+                    <p class="col-xs-12 col-sm-9 col-md-9">Sadainer ya todo está listo para unirte en matrimonio con Diana<br />La gran boda, 18 de Marzo de 2017</p>
+                </div>
+                <!-- END: HEADING -->
+                <!-- BEGIN: COUNTDOWN -->
+                <div class="countdown"></div>
+                <!-- END: COUNTDOWN -->
 
-	    	<!--BEGIN: CAROUSEL -->
-    		<div class="bridegroom-friend fade_in_hide element_fade_in">
-    			<div class="wedd-seperator"><img src="assets/base/images/saprator.png" alt="" ></div>
-	             	<div id="owl-demo" class="owl-carousel col-sm-10 col-xs-12 col-md-10">
-		                <div class="item">
-		                	<div class="friend-img">
-		                		<div class="imgoverlay"></div>
-		                		<img src="assets/base/images/friend-1.png" alt="Friend's Image">
-		                	</div>
-		                	<h3>Clark White</h3>
-		                	<span>Groom's Friend</span>
-		                </div>
-		                <div class="item">
-		                	<div class="friend-img">
-		                		<div class="imgoverlay"></div>
-		                		<img src="assets/base/images/friend-2.png" alt="Friend's Image">
-		                	</div>
-		                	<h3>Lee Walker</h3>
-		                	<span>Bride's Friend</span>
-		                </div>
-		                <div class="item">
-		                	<div class="friend-img">
-		                		<div class="imgoverlay"></div>
-		                		<img src="assets/base/images/friend-3.png" alt="Friend's Image">
-		                	</div>
-		                	<h3>Mark Georgek</h3>
-		                	<span>Groom's Friend</span>
-		                </div>
-		                <div class="item">
-		                	<div class="friend-img">
-		                		<div class="imgoverlay"></div>
-		                		<img src="assets/base/images/friend-4.png" alt="Friend's Image">
-		                	</div>
-		                	<h3>Lisa Jinnfer</h3>
-		                	<span>Groom's Friend</span>
-		                </div>
-		                <div class="item">
-		                	<div class="friend-img">
-		                		<div class="imgoverlay"></div>
-		                		<img src="assets/base/images/friend-1.png" alt="Friend's Image">
-		                	</div>
-		                	<h3>Clark White</h3>
-		                	<span>Groom's Friend</span>
-		                </div>
-		                <div class="item">
-		                	<div class="friend-img">
-		                		<div class="imgoverlay"></div>
-		                		<img src="assets/base/images/friend-2.png" alt="Friend's Image">
-		                	</div>
-		                	<h3>Lee Walker</h3>
-		                	<span>Bride's Friend</span>
-		                </div>
-		                <div class="item">
-		                	<div class="friend-img">
-		                		<div class="imgoverlay"></div>
-		                		<img src="assets/base/images/friend-3.png" alt="Friend's Image">
-		                	</div>
-		                	<h3>Mark Georgek</h3>
-		                	<span>Groom's Friend</span>
-		                </div>
-		                <div class="item">
-		                	<div class="friend-img">
-		                		<div class="imgoverlay"></div>
-		                		<img src="assets/base/images/friend-4.png" alt="Friend's Image">
-		                	</div>
-		                	<h3>Lisa Jinnfer</h3>
-		                	<span>Bride's Friend</span>
-		                </div>
-	            	</div>
-    		</div>
-	    	<!-- END: CAROUSEL -->
+            </div>
+            <!-- END: CONTAINER -->
 
-	    </div>
-	    <!-- END: CONTAINER -->
+        </section>
+        <!-- END: COUNTER -->
+        <!-- BEGAIN: SEPARATOR -->
+        <div class="seperator-spare"><div class="seperator-inner"><i class="fade_in_hide element_fade_in icon wedding-calender"></i></div></div>
+        <!-- END: SEPARATOR -->
+        <!-- BEGIN: EVENTS -->
+        <section id="event-wrapper" class="front-sections">
 
-    </section>
-	<!-- END: MAIDS -->
+            <!-- BEGIN: CONTAINER -->
+            <div class="container">
 
-	<!-- BEGAIN: SEPARATOR -->
-	<div class="seperator-spare"><div class="seperator-inner"><i class="fade_in_hide element_fade_in icon wedding-counter"></i></div></div>
-	<!-- END: SEPARATOR -->
+                <!-- BEGIN: EVENT INNER WRAPPER -->
+                <div class="row event-inner-wrapper">
 
-	<!-- BEGIN: COUNTER -->
-    <section id="counter-wrapper" class="front-sections">
+                    <!-- BEGIN: ACCOMMODATION SECTION -->
+                    <div id="accommodation-section" class="col-sm-5 col-xs-12 col-md-5">
+                        <img src="assets/base/images/couple.jpg" alt="" class="skt_animate_when_almost_visible skt_left-to-right">
+                        <div class="accomote-wrap">
+                            <div class="accommodation-heading fade_in_hide element_fade_in">
+                                <h2>Confirmación</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- BEGIN: ACCOMMODATION SECTION -->
+                    <!-- BEGIN: EVENT SECTION -->
+                    <div id="event-section" class="col-sm-7 col-xs-12 col-md-7 skt_animate_when_almost_visible skt_right-to-left">
+                        <!-- BEGIN: HEADING -->
+                        <div class="section-heading-content">
+                            <h2>Eventos</h2>
+                        </div>
+                        <!-- END: HEADING -->
+                        <!-- BEGIN: COMPONENT SECTION -->
+                        <div id="component-wrap" class="component">
+                            <div id="event-component" class="owl-carousel">
+                                <div class="item">
+                                    <div class="event-Wedding">
+                                        <h2> Ceremonia de Boda </h2>
+                                        <p class="event-description text-center">
+                                            Iglesia Santa Maria Madre Y Reina De La Paz
+                                            <br />Cra 19D # 4N-
+                                        </p>
+                                        <div class="divider-event">
+                                            <img src="assets/base/images/event-icon.png" alt="event divider"><div class="divid-event"></div>
+                                            <div style="clear:both;"></div>
+                                        </div>
+                                        <div class="event-time">
+                                            <ul class="list-inline">
+                                                <li><i class="fa fa-calendar" aria-hidden="true"></i> 18 | Marzo | 2017 </li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 05:00 PM</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="event-Wedding">
+                                        <h2> Fiesta de Bodas </h2>
+                                        <p class="event-description text-center">
+                                            Casa campo Donde Diana,
+                                            <br />Salida a la Pedregoza
+                                        </p>
+                                        <div class="divider-event">
+                                            <img src="assets/base/images/event-icon.png" alt="event divider"><div class="divid-event"></div>
+                                            <div style="clear:both;"></div>
+                                        </div>
+                                        <div class="event-time">
+                                            <ul class="list-inline">
+                                                <li><i class="fa fa-calendar" aria-hidden="true"></i> 18 | Marzo | 2017 </li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 07:00 PM</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--<div class="item">
+                                    <div class="event-Wedding">
+                                        <h2> Wedding Party Dinner </h2>
+                                        <p class="event-description text-center">Peter's Crib Center Cross Drive,
+                                        <br/>Saint Louis, MO 63110,</p>
+                                        <div class="divider-event"><img src="assets/base/images/event-icon.png" alt="event divider"><div class="divid-event"></div>
+                                        <div style="clear:both;"></div>
+                                         </div>
+                                        <div class="event-time">
+                                            <ul class="list-inline">
+                                                <li><i class="fa fa-calendar" aria-hidden="true"></i> 22 | July | 2016 </li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 08:30 PM</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>-->
+                            </div>
+                        </div>
+                        <!-- END: COMPONENT SECTION -->
+                    </div>
+                    <!-- END: EVENT SECTION -->
 
-    	<div class="counter-overlay"></div>
+                </div>
+                <!-- BEGIN: EVENT INNER WRAPPER -->
 
-    	<!-- BEGIN: CONTAINER -->
-    	<div class="container">
+            </div>
+            <!-- END: CONTAINER -->
 
-    		<!-- BEGIN: HEADING -->
-	    	<div class="row section-heading-content white-heading-content fade_in_hide element_fade_in">
-	    		<h2 class="col-xs-12 col-sm-3 col-md-3">we are going to mingle</h2>
-	    		<p class="col-xs-12 col-sm-9 col-md-9">Adams Herman is all set to be hitched with Saraha Johnson. <br/>Grand Wedding on December, 14, 2015</p>
-	    	</div>
-	    	<!-- END: HEADING -->
+        </section>
+        <!-- END: EVENTS -->
+        <!-- BEGAIN: SEPARATOR -->
+        <div class="seperator-spare">
+            <!-- BEGIN: CONTAINER -->
+            <div class="accomote-wrap container">
+                <div class="accommodation-heading">
+                    <h2>Confirmación</h2>
+                </div>
+            </div>
+            <div class="seperator-inner seperator-white"><i class="fade_in_hide element_fade_in icon wedding-baloons"></i></div>
+        </div>
+        <!-- END: SEPARATOR -->
 
-	    	<!-- BEGIN: COUNTDOWN -->
-	    	<div class="countdown"></div>
-	    	<!-- END: COUNTDOWN -->
 
-    	</div>
-    	<!-- END: CONTAINER -->
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+             aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <!--<div class="modal-header">
+                        <button type="button" class="close"
+                                data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span>
+                            <span class="sr-only">Close</span>
+                        </button>
+                        <div class="text-center">
+                            <h4 class="modal-title" id="myModalLabel">
+                                Registro de Asistencia
+                            </h4>
 
-    </section>
-    <!-- END: COUNTER -->
+                        </div>
+                    </div>-->
 
-    <!-- BEGAIN: SEPARATOR -->
-	<div class="seperator-spare"><div class="seperator-inner"><i class="fade_in_hide element_fade_in icon wedding-calender"></i></div></div>
-	<!-- END: SEPARATOR -->
+                    <!-- Modal Body -->
+                    <div class="modal-body colormodal">
 
-	<!-- BEGIN: EVENTS -->
-    <section id="event-wrapper" class="front-sections">
+                        <form class="form-horizontal" role="form">
+                            <br />
+                            <br />
+                            <div class="form-group">
+                                <div class="rel-status-section col-sm-12 col-xs-12 col-md-12">
+                                    <div class="name-field col-sm-12 col-xs-12 col-md-12">
+                                        <input type="text" class="controlmodal" id="Nombre" value="Nombre" onblur="if (this.value == '') { this.value = 'Nombre'; }"
+                                               onfocus="if (this.value == 'Nombre') { this.value = ''; }" />
+                                    </div>
+                                </div>
+                                <div class="rel-status-section col-sm-12 col-xs-12 col-md-12">
 
-    	<!-- BEGIN: CONTAINER -->
-    	<div class="container">
+                                    <div class="relation-field col-xs-12 col-sm-6 col-md-6">
+                                        <select id="Relacion" class="controlmodal">
+                                            <option value="Familia">Familia</option>
+                                            <option value="Amigo">Amigo</option>
+                                        </select>
+                                    </div>
 
-    		<!-- BEGIN: EVENT INNER WRAPPER -->
-	    	<div class="row event-inner-wrapper">
+                                    <div class="relation-field col-xs-12 col-sm-3 col-md-3">
+                                        <h3 class="textomodal">Cupo</h3>
+                                    </div>
+                                    <div class="relation-field col-xs-12 col-sm-3 col-md-3">
+                                        <select id="Cupo" value="Cupo" dir="rtl" class="controlmodal">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
 
-	    		<!-- BEGIN: ACCOMMODATION SECTION -->
-	    		<div id="accommodation-section" class="col-sm-5 col-xs-12 col-md-5">
-	    			<img src="assets/base/images/couple.jpg" alt="" class="skt_animate_when_almost_visible skt_left-to-right">
-	    			<div class="accomote-wrap">
-						<div class="accommodation-heading fade_in_hide element_fade_in">
-							<h2>accommodation</h2>
-						</div>
-					</div>
-	    		</div>
-	    		<!-- BEGIN: ACCOMMODATION SECTION -->
+                                </div>
+                                <div class="rel-status-section col-sm-12 col-xs-12 col-md-12">
+                                    <div class="status-field col-xs-12 col-sm-6 col-md-6">
+                                        <select id="Asistencia" class="controlmodal">
+                                            <option value="Asistire">Asistiré</option>
+                                            <option value="No asistire">No asistiré</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                </div>
+                        </form>
+                    </div>
 
-	    		<!-- BEGIN: EVENT SECTION -->
-	    		<div id="event-section" class="col-sm-7 col-xs-12 col-md-7 skt_animate_when_almost_visible skt_right-to-left" >
-	    			<!-- BEGIN: HEADING -->
-	    			<div class="section-heading-content">
-	    				<h2>events</h2>
-	    			</div>
-	    			<!-- END: HEADING -->
+                    <!-- Modal Footer -->
+                    <div class="modal-footer colormodal">
+                        <div class="col-md-12 text-center">
+                            <button type="button" class="buttonmodal" id="Enviar">Enviar Respuesta</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
 
-	    			<!-- BEGIN: COMPONENT SECTION -->
-		    		<div id="component-wrap" class="component">
-						<div id="event-component" class="owl-carousel">
-							<div class="item">
-								<div class="event-Wedding">
-									<h2> Wedding Ceremony </h2>
-									<p class="event-description text-center">Peter's Crib Center Cross Drive,
-									<br/>Saint Louis, MO 63110,</p>
-									<div class="divider-event"><img src="assets/base/images/event-icon.png" alt="event divider"><div class="divid-event"></div>
-									<div style="clear:both;"></div>
-									 </div>
-									<div class="event-time">
-										<ul class="list-inline">
-											<li><i class="fa fa-calendar" aria-hidden="true"></i> 20 | July | 2016 </li>
-											<li><i class="fa fa-clock-o" aria-hidden="true"></i> 08:30 PM</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="event-Wedding">
-									<h2> Wedding Party </h2>
-									<p class="event-description text-center">Peter's Crib Center Cross Drive,
-									<br/>Saint Louis, MO 63110,</p>
-									<div class="divider-event"><img src="assets/base/images/event-icon.png" alt="event divider"><div class="divid-event"></div>
-									<div style="clear:both;"></div>
-									 </div>
-									<div class="event-time">
-										<ul class="list-inline">
-											<li><i class="fa fa-calendar" aria-hidden="true"></i> 21 | July | 2016 </li>
-											<li><i class="fa fa-clock-o" aria-hidden="true"></i> 08:30 PM</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="event-Wedding">
-									<h2> Wedding Party Dinner </h2>
-									<p class="event-description text-center">Peter's Crib Center Cross Drive,
-									<br/>Saint Louis, MO 63110,</p>
-									<div class="divider-event"><img src="assets/base/images/event-icon.png" alt="event divider"><div class="divid-event"></div>
-									<div style="clear:both;"></div>
-									 </div>
-									<div class="event-time">
-										<ul class="list-inline">
-											<li><i class="fa fa-calendar" aria-hidden="true"></i> 22 | July | 2016 </li>
-											<li><i class="fa fa-clock-o" aria-hidden="true"></i> 08:30 PM</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- END: COMPONENT SECTION -->
-				</div>
-				<!-- END: EVENT SECTION -->
+        <div class="modal fade" id="myModalNo" tabindex="-1" role="dialog"
+             aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body center">
+                        <h2 >Código no registrado</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-	    	</div>
-	    	<!-- BEGIN: EVENT INNER WRAPPER -->
 
-    	</div>
-    	<!-- END: CONTAINER -->
-
-    </section>
-    <!-- END: EVENTS -->
-
-    <!-- BEGAIN: SEPARATOR -->
-	<div class="seperator-spare">
-		<!-- BEGIN: CONTAINER -->
-    	<div class="accomote-wrap container">
-			<div class="accommodation-heading">
-				<h2>accommodation</h2>
-			</div>
-		</div>
-		<div class="seperator-inner seperator-white"><i class="fade_in_hide element_fade_in icon wedding-baloons"></i></div>
-	</div>
-	<!-- END: SEPARATOR -->
 
     <!-- BEGIN: RSVP -->
     <section id="rsvp-wrapper" class="front-sections">
@@ -499,8 +604,8 @@ Follow: https://twitter.com/sketchthemes
 
     		<!-- BEGIN: HEADING -->
 	    	<div class="row section-heading-content white-heading-content fade_in_hide element_fade_in">
-	    		<h2 class="col-xs-12 col-sm-3 col-md-3">rsvp</h2>
-	    		<p class="col-xs-12 col-sm-9 col-md-9">Make sure you are going to make it for the grand wedding. Just get into the guest lists and confirm your gracious presence on this occasion.</p>
+	    		<h2 class="col-xs-12 col-sm-3 col-md-3">Reservación</h2>
+	    		<p class="col-xs-12 col-sm-9 col-md-9">Queremos contar con tu compañia, asegúrate de confirmar tu presencia para esta ocasión</p>
 	    	</div>
 	    	<!-- END: HEADING -->
 
@@ -511,39 +616,19 @@ Follow: https://twitter.com/sketchthemes
 		    	<div id="rsvp-form-section" class="rsvp-form-wrapper">
 
 		    		<!-- BEGIN: RSVP FORM -->
-		    		<form id="rsvpform" class="clearfix" method="post" action="#">
+		    		<form id="rsvpform" class="clearfix" method="post">
 
-		    			<div class="name-field col-sm-12 col-xs-12 col-md-12">
-		    				<input type="text" class="your-name" name="yourname" value="Name" onblur="if (this.value == '') {this.value = 'Name';}"
- onfocus="if (this.value == 'Name') {this.value = '';}" />
-		    			</div>
+                        <div class="name-field col-sm-12 col-xs-12 col-md-12">
+                            <div class="relation-field col-sm-6 col-md-6">
+                                <input type="text" id="Codigo" placeholder="Código Invitación"/>
+                            </div>
 
-		    			<div class="rel-status-section col-sm-12 col-xs-12 col-md-12">
-
-			    			<div class="relation-field col-xs-12 col-sm-6 col-md-6">
-			    				<select id="whoisthis" name="whoisthis">
-			    					<option value="guest">Guest</option>
-			    					<option value="family">Family</option>
-			    					<option value="friend">Friend</option>
-			    				</select>
-			    			</div>
-
-			    			<div class="status-field col-xs-12 col-sm-6 col-md-6">
-			    				<select id="attened" name="attened">
-			    					<option value="attending">I Am Attending</option>
-			    					<option value="notattending">I Am Not Attending</option>
-			    				</select>
-			    			</div>
-
-			    		</div>
-
-			    		<div class="submit-field col-sm-12 col-xs-12 col-md-12">
-			    			<div class="submit-section">
-		    					<input type="submit" class="submit-btn" value="submit your response" />
-		    					<span><i class="fa fa-paper-plane"></i></span>
-		    				</div>
-		    			</div>
-
+                            <div class="relation-field center-block col-sm-3 col-md-3 ">
+                                <input id="Buscar" type="button" value="Buscar" />
+                            </div>
+                        </div>
+                       
+		    			
 		    		</form>
 		    		<!-- END: RSVP FORM -->
 
@@ -908,6 +993,70 @@ Follow: https://twitter.com/sketchthemes
     <script src="assets/base/js/jquery.waypoints.js"></script>
     <!-- Theme JS -->
     <script src="assets/base/js/script.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.3/firebase.js"></script>
+    <script>
+  // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAhpnqLhKYSZS9Su9r4ZRHVL8yfa-A1T-4",
+        authDomain: "boda-909ee.firebaseapp.com",
+        databaseURL: "https://boda-909ee.firebaseio.com",
+        storageBucket: "boda-909ee.appspot.com",
+        messagingSenderId: "596501280702"
+      };
+      firebase.initializeApp(config);
+      var database = firebase.database();
+
+      $(document).ready(function () {
+
+          $('#Buscar').click(function () {
+
+              if ($('#Codigo').val() != "") {
+                  var userId = $('#Codigo').val();
+                  return firebase.database().ref(userId).once('value').then(function (snapshot) {
+                      var username = snapshot.val();
+                      if (username != null) {
+
+                          $('#myModal #Nombre').val(username.Nombre);
+                          $('#myModal #Cupo').val(username.Cupo);
+                          $('#myModal #Relacion').val(username.Relacion);
+                          $('#myModal #Asistencia').val(username.Asistencia);
+
+                          $("#myModal").modal();
+                      } else {
+                          $("#myModalNo").modal();
+                      }
+
+                  });
+              }
+          });
+
+          $('#myModal #Enviar').click(function () {
+
+             
+
+              var Codigo = $('#Codigo').val();
+              var Nombre = $('#myModal #Nombre').val();
+              var Cupo = $('#myModal #Cupo').val();
+              var Relacion = $('#myModal #Relacion').val();
+              var Asistencia = $('#myModal #Asistencia').val();
+              var Confirmado = "Si";
+
+              firebase.database().ref(Codigo).set({
+                  Nombre: Nombre,
+                  Cupo: Cupo,
+                  Relacion: Relacion,
+                  Asistencia: Asistencia,
+                  Confirmado: Confirmado
+              });
+
+              $("#myModal").modal('toggle');
+              $('#Codigo').val("");
+          });
+
+
+      });
+
+     </script>
     <!-- END: JQUERY -->
 </div>
 

@@ -912,14 +912,20 @@ ul.dropdown-menu > li:last-child > a{
 .rsvp-overlay{position: absolute;right: 0;left: 0;bottom: 0;top: 0;background-color: #ED2437;opacity: 0.8;-webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: skew(0deg, -3.23deg); -moz-transform: skew(0deg, -3.23deg); -o-transform: skew(0deg, -3.23deg); -ms-transform: skew(0deg, -3.23deg); transform: skew(0deg, -3.23deg); margin-top: -58px; }
 #rsvp-wrapper .section-heading-content.white-heading-content h2:after {background-color: #ffffff;margin-top: 10px;width: 70px;}
 form#rsvpform input,form#rsvpform select{ padding-bottom: 11px;border-radius: 0; background: transparent none repeat scroll 0 0; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; background: transparent none repeat scroll 0 0; border-color: -moz-use-text-color -moz-use-text-color #ffffff; border-image: none; border-style: none none solid; border-width: 0 0 1px; color: #ffffff; font-family: 'Open Sans'; font-size: 30px; font-weight: 300; width: 95%;border-bottom-color:#ffffff; }
+.controlmodal{ padding-bottom: 11px;border-radius: 0; background: transparent none repeat scroll 0 0; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; background: transparent none repeat scroll 0 0; border-color: -moz-use-text-color -moz-use-text-color #ffffff; border-image: none; border-style: none none solid; border-width: 0 0 1px; color: #ffffff; font-family: 'Open Sans'; font-size: 30px; font-weight: 300; width: 95%;border-bottom-color:#ffffff; }
+.textomodal{ padding-bottom: 11px;border-radius: 0; background: transparent none repeat scroll 0 0; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; background: transparent none repeat scroll 0 0; border-color: -moz-use-text-color -moz-use-text-color #ffffff; border-image: none; border-width: 0 0 1px; color: #ffffff; font-family: 'Open Sans'; font-size: 30px; font-weight: 300; width: 95%; }
 form#rsvpform select option { color: #131b28; }
 .submit-section {margin: 0 auto; position: relative; width: 43.5%}
-form#rsvpform input[type='submit']{border: 1px solid #ffffff; border-radius: 35px; font-family: 'Courgette',cursive; font-size: 30px; height: 66px; letter-spacing: -0.6px;padding: 0 36px 0 0;}
+form#rsvpform input[type='button']{color: #ffffff;border: 1px solid #ffffff; border-radius: 35px; font-family: 'Courgette',cursive; font-size: 30px; height: 66px; letter-spacing: -0.6px;padding: 0 36px 0 0;}
+.buttonmodal{border: 1px solid #ffffff;border-radius: 35px; font-family: 'Courgette',cursive; font-size: 30px; height: 66px; letter-spacing: -0.6px;background: transparent none repeat scroll 0 0;padding: 0 36px 0 0; width: 65%;color:white}
 .name-field.col-md-10 {float: none;}
+.colormodal {
+        background-color: #ED2437;
+}
 .rsvp-form-wrapper { margin-top: 80px; }
 form#rsvpform { margin: 0 auto; width: 80%; }
 form#rsvpform .name-field.col-md-12 {margin-bottom: 60px;}
-.rel-status-section.col-md-12 {margin-bottom: 78px;}
+.rel-status-section.col-md-12 {margin-bottom: 28px;}
 .submit-field .submit-section span {background-color: #ffffff; border-radius: 100%; color: #EF2438; font-size: 25px; height: 60px; line-height: 60px; position: absolute; right: 13px; top: 3px; width: 60px; }
 .submit-section:hover span i {
     animation: 2s linear 0s normal none infinite running float;

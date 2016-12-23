@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\base\images\ima_compromiso.jpg" />
     <Content Include="packages.config" />
     <Content Include="assets\base\fonts\wedding-fonts.eot" />
     <Content Include="assets\base\fonts\wedding-fonts.ttf" />
@@ -76,6 +77,7 @@
     <Content Include="assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="assets\plugins\bootstrap\fonts\glyphicons-halflings-regulard41d.eot" />
+    <None Include="Properties\PublishProfiles\sada.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
